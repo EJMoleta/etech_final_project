@@ -67,7 +67,7 @@ footer{
 }
 
 .footerNav ul li a:hover{
-    opacity: 1;
+        color: #daa300;
 }
 
 .footerBottom{
