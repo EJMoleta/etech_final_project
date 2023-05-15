@@ -35,3 +35,9 @@ h5.card-title{
     letter-spacing: 50px;
 }
 
+
+.card img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
