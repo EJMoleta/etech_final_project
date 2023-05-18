@@ -8,44 +8,33 @@
     background-color: ghostwhite;
 }
 
-.about{
-    width: 100%;
-}
-
-.about img{
-    height: auto;
-    width: 600px;
-    margin-bottom: 50px;
-    margin-right: 25px;
-}
-
-.about text{
-    width: 800px;
-    padding: 30px 0px;
-
-}
-
-.main{
-    color: black;
-    max-width: 95%;
-    margin: 0 auto;
+.about-us{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
-.about-text h1{
+.wrapper{
+    margin: 15px;
+}
+
+.about-img{
+    max-width: 700px;
+    float: left;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.text-box{
+    color: black;
+}
+
+.text-box h2{
     font-family: 'Teko', sans-serif;
-    font-size: 150px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
+    font-size: 125px;
 }
 
-.about-text p{
+.text-box p{
     font-family: 'Maven Pro', sans-serif;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 25px;
-    margin-bottom: 45px;
+    font-size: 30px;
 }
-
-
