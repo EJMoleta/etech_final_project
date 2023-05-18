@@ -35,8 +35,6 @@
 }
 
 .card{
-    height: 250px;
-    width: 350px;
     padding: 30px;
     border-radius: 5px;
     display: flex;
@@ -63,17 +61,16 @@
 
 .card:hover{
     background: #daa300;
-    width: 380px;
 }
 
 .card:hover h2{
     color: ghostwhite;
-    font-size: 50px;
+    font-size: 41px;
 }
 
 .card:hover p{
     color: ghostwhite;
-    font-size: 30px;
+    font-size: 25.5px;
 }
 
 @media(max-wdith: 991px) {
